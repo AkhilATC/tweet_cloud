@@ -11,6 +11,7 @@ import io
 import base64
 import csv
 
+# blueprint
 twiity = Blueprint('apps', __name__, template_folder='templates')
 
 
