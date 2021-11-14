@@ -5,10 +5,10 @@ class TwittyCrow:
 
     def __init__(self):
        
-        self.api = twitter.Api(consumer_key="Xppx1Gbem6k3B1wn0cCjpGKTo",
-                consumer_secret="VJpg9p9u0mfGn6lMihariO1zQRKSNpFOI844Bm2oJZEjmocIXb",
-                access_token_key="1208267336727195648-i7J63ymNp4ZAHRK6GMcM0RSgcEx99A",
-                access_token_secret="ECFguGSW9ox0qzQoaWy8e23qBhyPlUfST9xkCkfCGGIBO")
+        self.api = twitter.Api(consumer_key=<customer_key>,#pass customer key
+                consumer_secret=<consumer_secret>,#pass consumer_secret
+                access_token_key=<access_token_key>,#pass access_token_key
+                access_token_secret=<access_token_key>)#pass access_token_key
         #'lang': 'en' - geo - location
         #['68.116667 ,8.066667,97.416667,37.100000']
 
